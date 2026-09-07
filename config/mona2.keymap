@@ -232,31 +232,6 @@
     };
 
     behaviors {
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
-        scroll_up_down: mouse_wheel_up_down {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
-            tap-ms = <20>;
-        };
-
-        scroll_right_left: mouse_wheel_right_left {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
-
-            tap-ms = <20>;
-        };
-
         layer_1_2: layer_1_2 {
             compatible = "zmk,behavior-tap-dance";
             label = "LAYER_1_2";
@@ -296,7 +271,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE  &kp ENTER               &kp BACKSPACE  &layer_1_2                             &kp ENTER
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&none>;
         };
 
         ARROW {
@@ -307,7 +282,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                                                 &trans
             >;
 
-            sensor-bindings = <&scroll_right_left>;
+            sensor-bindings = <&none>;
         };
 
         NUM {
@@ -318,7 +293,7 @@
 &trans   &trans   &trans   &trans  &trans  &trans    &trans  &trans                                               &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&none>;
         };
 
         layer_3 {
@@ -340,7 +315,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                                    &bt BT_CLR_ALL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&none>;
         };
 
         MOUSE {
@@ -351,7 +326,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &mkp MB4
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&none>;
         };
 
         SCROLL {
@@ -362,7 +337,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&none>;
         };
 
         SHEET {
