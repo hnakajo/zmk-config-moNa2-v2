@@ -84,7 +84,7 @@
             key-positions = <24 23>;
         };
 
-        P__HASH {
+        SC_HASH {
             bindings = <&kp HASH>;
             key-positions = <9 20>;
         };
