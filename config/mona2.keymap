@@ -281,8 +281,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RIGHT_SHIFT  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                                                 &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         NUM {
