@@ -287,9 +287,9 @@
 
         NUM {
             bindings = <
-&kp F12  &kp F11  &kp F10  &kp F9  &none                     &none      &kp N7        &kp N8        &kp N9        &kp BACKSPACE
-&kp F8   &kp F7   &kp F6   &kp F5  &none             &trans  &kp COMMA  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RC(RIGHT_SHIFT)
-&kp F4   &kp F3   &kp F2   &kp F1  &none   &none     &trans  &kp DOT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
+&kp F12  &kp F11  &kp F10  &kp F9  &trans                    &trans     &kp N7        &kp N8        &kp N9        &kp BACKSPACE
+&kp F8   &kp F7   &kp F6   &kp F5  &trans            &trans  &kp COMMA  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RC(RIGHT_SHIFT)
+&kp F4   &kp F3   &kp F2   &kp F1  &trans  &trans    &trans  &kp DOT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
 &trans   &trans   &trans   &trans  &trans  &trans    &trans  &trans                                               &trans
             >;
 
