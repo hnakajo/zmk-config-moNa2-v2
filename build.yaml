@@ -1,48 +1,79 @@
 # This file generates the GitHub Actions matrix.
 # For simple board + shield combinations, add them to the top level board and
 # shield arrays, for more control, add individual board + shield combinations
-# to the `include` property. You can also use the `cmake-args` property to
-# pass flags to the build command and `artifact-name` to assign a name to
-# distinguish build outputs from each other:
+# to the `include` property.
 #
-# board: [ "nice_nano_v2" ]
-# shield: [ "corne_left", "corne_right" ]
-# include:
-#   - board: bdn9_rev2
-#   - board: nice_nano_v2
-#     shield: reviung41
-#   - board: nice_nano_v2
-#     shield: corne_left
-#     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-#     artifact-name: corne_left_with_logging
-#
+# moNa2 PAW3222 diagnosis / production candidate builds
+
 ---
+
 include:
+
+  # ============================================================
+  # 1. PMW3610版
+  #    比較用。今回の実機では使用しない。
+  # ============================================================
   - board: seeeduino_xiao_ble
     shield: mona2_r rgbled_adapter
     snippet: studio-rpc-usb-uart
     artifact-name: mona2_r-pmw3610
- 
+
+
+  # ============================================================
+  # 2. PAW3222 + Studio
+  #
+  #    DYA Studio用の通常構成。
+  #    PAW3222を確実に選択するため、
+  #    EXTRA_CONF_FILE と DTS_EXTRA_CPPFLAGS の両方を指定。
+  #
+  #    今回、この構成ではトラックボールが動かなかった。
+  #    比較対象として残す。
+  # ============================================================
   - board: seeeduino_xiao_ble
     shield: mona2_r rgbled_adapter
     snippet: studio-rpc-usb-uart
-    cmake-args: '-DEXTRA_CONF_FILE=../../config/paw3222.conf'
-    artifact-name: mona2_r-paw3222
+    cmake-args: '-DEXTRA_CONF_FILE=../../config/paw3222.conf -DDTS_EXTRA_CPPFLAGS=-DCONFIG_TRACKBALL_PAW3222'
+    artifact-name: mona2_r-paw3222-studio
 
-  # ── デバッグ用：central(右) を USB ロギング付きでビルド ──
-  # studio-rpc-usb-uart スナップショットは付けない（USB の CDC ACM を
-  # ロギング・コンソール専用にして二重 CDC 競合を避けるため）。
-  # ZMK_USB_LOGGING=y で ZMK ログは自動的に DBG(level 4) になる。
-  # PMW3610 ベース。PAW3222 機なら下の cmake-args の行を有効化して使う。
 
+  # ============================================================
+  # 3. PAW3222 + CDC
+  #
+  #    ★現在、実機でトラックボールが動いた構成★
+  #
+  #    この構成は絶対に変更せず、
+  #    動作確認済みの基準ファームとして残す。
+  # ============================================================
   - board: seeeduino_xiao_ble
     shield: mona2_r rgbled_adapter
     snippet: cdc-acm-console
     cmake-args: '-DEXTRA_CONF_FILE=../../config/paw3222.conf -DDTS_EXTRA_CPPFLAGS=-DCONFIG_TRACKBALL_PAW3222'
-    artifact-name: mona2_r-logging
-  
+    artifact-name: mona2_r-paw3222-known-good
+
+
+  # ============================================================
+  # 4. PAW3222 clean版
+  #
+  #    StudioもCDC Consoleも付けない。
+  #    PAW3222そのものだけで動くかを確認するためのテスト。
+  #
+  #    次に実機へ書き込むのはこれ。
+  # ============================================================
+  - board: seeeduino_xiao_ble
+    shield: mona2_r rgbled_adapter
+    cmake-args: '-DEXTRA_CONF_FILE=../../config/paw3222.conf -DDTS_EXTRA_CPPFLAGS=-DCONFIG_TRACKBALL_PAW3222'
+    artifact-name: mona2_r-paw3222-clean
+
+
+  # ============================================================
+  # 5. 左側
+  # ============================================================
   - board: seeeduino_xiao_ble
     shield: mona2_l rgbled_adapter
- 
+
+
+  # ============================================================
+  # 6. Settings Reset
+  # ============================================================
   - board: seeeduino_xiao_ble
     shield: settings_reset
