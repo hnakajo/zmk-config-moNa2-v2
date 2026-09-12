@@ -38,7 +38,7 @@ include:
   - board: seeeduino_xiao_ble
     shield: mona2_r rgbled_adapter
     snippet: cdc-acm-console
-    cmake-args: '-DCONFIG_ZMK_USB_LOGGING=y -DEXTRA_CONF_FILE=../../config/paw3222.conf'
+    cmake-args: '-DCONFIG_ZMK_USB_LOGGING=y -DEXTRA_CONF_FILE=../../config/paw3222.conf -DDTS_EXTRA_CPPFLAGS=-DCONFIG_TRACKBALL_PAW3222'
     artifact-name: mona2_r-logging
   
   - board: seeeduino_xiao_ble
