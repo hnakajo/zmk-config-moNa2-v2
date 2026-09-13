@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - {t: DELETE, h: RIGHT ALT}
-  - '&jp_en'
+  - LANGUAGE 1
   - N
   - M
   - ','
