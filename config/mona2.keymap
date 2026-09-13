@@ -181,7 +181,7 @@
 
         SC_SCS_ESC {
             bindings = <&mt LG(LS(S)) ESCAPE>;
-            key-positions = <0 0 1>;
+            key-positions = <0 1>;
         };
 
         CTRL_Y {
