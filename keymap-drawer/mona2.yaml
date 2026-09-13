@@ -421,3 +421,5 @@ combos:
   k: Sft+Ctl+R
 - p: [31, 30, 29]
   k: SHEET
+- p: [20, 19]
+  k: '&hankaku_at'
