@@ -447,9 +447,9 @@ path.combo {
 <text x="56" y="84" class="combo tap">LSHFT</text>
 </g>
 <g class="combo combopos-31">
-<rect rx="6" ry="6" x="33" y="15" width="28" height="26" class="combo"/>
-<text x="47" y="28" class="combo tap">ESCAPE</text>
-<text x="47" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
+<rect rx="6" ry="6" x="42" y="15" width="28" height="26" class="combo"/>
+<text x="56" y="28" class="combo tap">ESCAPE</text>
+<text x="56" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
 </g>
 <g class="combo combopos-32">
 <rect rx="6" ry="6" x="490" y="15" width="28" height="26" class="combo"/>
@@ -818,9 +818,9 @@ path.combo {
 <text x="56" y="84" class="combo tap">LSHFT</text>
 </g>
 <g class="combo combopos-31">
-<rect rx="6" ry="6" x="33" y="15" width="28" height="26" class="combo"/>
-<text x="47" y="28" class="combo tap">ESCAPE</text>
-<text x="47" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
+<rect rx="6" ry="6" x="42" y="15" width="28" height="26" class="combo"/>
+<text x="56" y="28" class="combo tap">ESCAPE</text>
+<text x="56" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
 </g>
 <g class="combo combopos-32">
 <rect rx="6" ry="6" x="490" y="15" width="28" height="26" class="combo"/>
@@ -1178,9 +1178,9 @@ path.combo {
 <text x="56" y="84" class="combo tap">LSHFT</text>
 </g>
 <g class="combo combopos-31">
-<rect rx="6" ry="6" x="33" y="15" width="28" height="26" class="combo"/>
-<text x="47" y="28" class="combo tap">ESCAPE</text>
-<text x="47" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
+<rect rx="6" ry="6" x="42" y="15" width="28" height="26" class="combo"/>
+<text x="56" y="28" class="combo tap">ESCAPE</text>
+<text x="56" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
 </g>
 <g class="combo combopos-32">
 <rect rx="6" ry="6" x="490" y="15" width="28" height="26" class="combo"/>
@@ -1561,9 +1561,9 @@ path.combo {
 <text x="56" y="84" class="combo tap">LSHFT</text>
 </g>
 <g class="combo combopos-31">
-<rect rx="6" ry="6" x="33" y="15" width="28" height="26" class="combo"/>
-<text x="47" y="28" class="combo tap">ESCAPE</text>
-<text x="47" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
+<rect rx="6" ry="6" x="42" y="15" width="28" height="26" class="combo"/>
+<text x="56" y="28" class="combo tap">ESCAPE</text>
+<text x="56" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
 </g>
 <g class="combo combopos-32">
 <rect rx="6" ry="6" x="490" y="15" width="28" height="26" class="combo"/>
@@ -1923,9 +1923,9 @@ path.combo {
 <text x="56" y="84" class="combo tap">LSHFT</text>
 </g>
 <g class="combo combopos-31">
-<rect rx="6" ry="6" x="33" y="15" width="28" height="26" class="combo"/>
-<text x="47" y="28" class="combo tap">ESCAPE</text>
-<text x="47" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
+<rect rx="6" ry="6" x="42" y="15" width="28" height="26" class="combo"/>
+<text x="56" y="28" class="combo tap">ESCAPE</text>
+<text x="56" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
 </g>
 <g class="combo combopos-32">
 <rect rx="6" ry="6" x="490" y="15" width="28" height="26" class="combo"/>
@@ -2286,9 +2286,9 @@ path.combo {
 <text x="56" y="84" class="combo tap">LSHFT</text>
 </g>
 <g class="combo combopos-31">
-<rect rx="6" ry="6" x="33" y="15" width="28" height="26" class="combo"/>
-<text x="47" y="28" class="combo tap">ESCAPE</text>
-<text x="47" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
+<rect rx="6" ry="6" x="42" y="15" width="28" height="26" class="combo"/>
+<text x="56" y="28" class="combo tap">ESCAPE</text>
+<text x="56" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
 </g>
 <g class="combo combopos-32">
 <rect rx="6" ry="6" x="490" y="15" width="28" height="26" class="combo"/>
@@ -2639,9 +2639,9 @@ path.combo {
 <text x="56" y="84" class="combo tap">LSHFT</text>
 </g>
 <g class="combo combopos-31">
-<rect rx="6" ry="6" x="33" y="15" width="28" height="26" class="combo"/>
-<text x="47" y="28" class="combo tap">ESCAPE</text>
-<text x="47" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
+<rect rx="6" ry="6" x="42" y="15" width="28" height="26" class="combo"/>
+<text x="56" y="28" class="combo tap">ESCAPE</text>
+<text x="56" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
 </g>
 <g class="combo combopos-32">
 <rect rx="6" ry="6" x="490" y="15" width="28" height="26" class="combo"/>
@@ -2991,9 +2991,9 @@ path.combo {
 <text x="56" y="84" class="combo tap">LSHFT</text>
 </g>
 <g class="combo combopos-31">
-<rect rx="6" ry="6" x="33" y="15" width="28" height="26" class="combo"/>
-<text x="47" y="28" class="combo tap">ESCAPE</text>
-<text x="47" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
+<rect rx="6" ry="6" x="42" y="15" width="28" height="26" class="combo"/>
+<text x="56" y="28" class="combo tap">ESCAPE</text>
+<text x="56" y="39" class="combo hold"><tspan style="font-size: 78%">Gui+Sft+S</tspan></text>
 </g>
 <g class="combo combopos-32">
 <rect rx="6" ry="6" x="490" y="15" width="28" height="26" class="combo"/>

@@ -407,7 +407,7 @@ combos:
   k: Ctl+X
 - p: [10, 11]
   k: LSHFT
-- p: [0, 0, 1]
+- p: [0, 1]
   k: {t: ESCAPE, h: Gui+Sft+S}
 - p: [6, 5]
   k: Ctl+Y
