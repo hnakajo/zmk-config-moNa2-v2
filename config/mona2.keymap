@@ -213,6 +213,11 @@
             bindings = <&mo 7>;
             key-positions = <31 30 29>;
         };
+
+        at {
+            bindings = <&hankaku_at>;
+            key-positions = <20 19>;
+        };
     };
 
     macros {
@@ -228,6 +233,13 @@
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp H &kp DOT &kp N &kp A &kp K &kp A &kp J &kp O &kp N0 &kp N8 &kp N2 &kp N4 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL_PRIVATE";
+        };
+
+        hankaku_at: hankaku_at {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp AT>;
+            label = "HANKAKU_AT";
         };
     };
 
