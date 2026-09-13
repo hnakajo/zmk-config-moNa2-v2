@@ -111,7 +111,7 @@
     active-layers = <0x00000040>;
 
     scale-multiplier = <1>;
-    scale-divisor = <7>;
+    scale-divisor = <9>;
 };
 
 
