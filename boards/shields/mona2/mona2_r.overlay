@@ -154,10 +154,10 @@
         track_remainders;
 
         bindings =
-            <&kp LA(TAB)>,
-            <&kp LA(LS(TAB))>,
-            <&none>,
-            <&none>;
+            <&kp LC(PAGE_DOWN)>,
+            <&kp LC(PAGE_UP)>,
+            <&kp LS(TAB)>,
+            <&kp TAB>;
 
         mode = <1>;
 
