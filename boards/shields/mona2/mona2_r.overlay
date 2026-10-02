@@ -233,7 +233,7 @@
         layers = <7>;
 
         input-processors =
-            <&alt_tab_trackball>,
+            <&alt_tab_trackball>;
             process-next;
     };
 
