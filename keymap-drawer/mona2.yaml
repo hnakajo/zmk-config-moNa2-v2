@@ -423,5 +423,5 @@ combos:
   k: SHEET
 - p: [20, 19]
   k: '&hankaku_at'
-- p: [21, 10, 11]
+- p: [10, 11, 12]
   k: Sft+LCTRL
