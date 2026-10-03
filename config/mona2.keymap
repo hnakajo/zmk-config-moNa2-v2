@@ -218,6 +218,11 @@
             bindings = <&hankaku_at>;
             key-positions = <20 19>;
         };
+
+        ctrl_sht {
+            bindings = <&kp LS(LCTRL)>;
+            key-positions = <21 10 11>;
+        };
     };
 
     macros {
