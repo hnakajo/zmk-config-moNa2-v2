@@ -425,5 +425,3 @@ combos:
   k: '&hankaku_at'
 - p: [10, 11, 12]
   k: Sft+LCTRL
-- p: [19, 20]
-  k: RIGHT SHIFT
