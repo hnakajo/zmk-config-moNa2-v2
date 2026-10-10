@@ -223,6 +223,11 @@
             bindings = <&kp LS(LCTRL)>;
             key-positions = <10 11 12>;
         };
+
+        sft_right {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
@@ -344,10 +349,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp RCTRL  &trans  &trans  &kp RCTRL
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                             &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mo 7   &trans  &trans  &kp RCTRL
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
         };
 
