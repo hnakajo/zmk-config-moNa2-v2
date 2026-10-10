@@ -288,7 +288,7 @@
 &kp LEFT_SHIFT  &kp LEFT_WIN  &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE  &kp ENTER               &kp BACKSPACE  &layer_1_2                             &kp ENTER
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(LC(RIGHT)) LG(LC(LEFT))>;
+            sensor-bindings = <&inc_dec_kp LG(LC(LEFT)) LG(LC(RIGHT))>;
         };
 
         ARROW {
