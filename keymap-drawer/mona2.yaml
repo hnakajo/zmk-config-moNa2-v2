@@ -288,7 +288,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RCTRL
+  - SHEET
   - {type: held}
   - {type: held}
   - RCTRL
@@ -332,8 +332,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -425,3 +425,5 @@ combos:
   k: '&hankaku_at'
 - p: [10, 11, 12]
   k: Sft+LCTRL
+- p: [19, 20]
+  k: RIGHT SHIFT
