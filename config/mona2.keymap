@@ -223,6 +223,24 @@
             bindings = <&kp LS(LCTRL)>;
             key-positions = <10 11 12>;
         };
+
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <29 30>;
+            layers = <5>;
+        };
+
+        mb3 {
+            bindings = <&mkp MB3>;
+            key-positions = <30 31>;
+            layers = <5>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <31 32>;
+            layers = <5>;
+        };
     };
 
     macros {
@@ -333,10 +351,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans    &trans    &mkp MB5
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &mkp MB4
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &mkp MB5
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &mkp MB4
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
