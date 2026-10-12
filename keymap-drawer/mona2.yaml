@@ -246,9 +246,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -425,3 +425,12 @@ combos:
   k: '&hankaku_at'
 - p: [10, 11, 12]
   k: Sft+LCTRL
+- p: [29, 30]
+  k: '&mkp MB1'
+  l: ['5']
+- p: [30, 31]
+  k: '&mkp MB3'
+  l: ['5']
+- p: [31, 32]
+  k: '&mkp MB2'
+  l: ['5']
