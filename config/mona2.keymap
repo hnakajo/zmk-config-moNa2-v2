@@ -206,7 +206,7 @@
 
         CTRL_SFT_R {
             bindings = <&kp LS(LC(R))>;
-            key-positions = <4 3>;
+            key-positions = <4 3 2>;
         };
 
         MO_SHEET {
@@ -357,7 +357,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &mkp MB4
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp LG(LC(LEFT_ARROW)) LG(LC(RIGHT_ARROW))>;
         };
 
         SCROLL {
