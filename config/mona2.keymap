@@ -232,7 +232,7 @@
 
         mb3 {
             bindings = <&mkp MB3>;
-            key-positions = <30 31 13 24>;
+            key-positions = <30 31 32>;
             layers = <5>;
         };
 
