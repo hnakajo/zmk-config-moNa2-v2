@@ -31,7 +31,7 @@
 
         eq {
             bindings = <&kp EQUAL>;
-            key-positions = <29 30>;
+            key-positions = <6 7>;
         };
 
         L_PAR {
@@ -116,7 +116,7 @@
 
         SC_PLUS {
             bindings = <&kp PLUS>;
-            key-positions = <32 31>;
+            key-positions = <7 8>;
         };
 
         CTRL_SFT_L {
@@ -232,7 +232,7 @@
 
         mb3 {
             bindings = <&mkp MB3>;
-            key-positions = <30 31>;
+            key-positions = <30 31 13 24>;
             layers = <5>;
         };
 
