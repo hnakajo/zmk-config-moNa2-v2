@@ -417,7 +417,7 @@ combos:
   k: Sft+Alt+LEFT ARROW
 - p: [10, 21]
   k: LCTRL
-- p: [4, 3, 2]
+- p: [3, 2, 1]
   k: Sft+Ctl+R
 - p: [31, 30, 29]
   k: SHEET
@@ -434,5 +434,5 @@ combos:
 - p: [31, 32]
   k: '&mkp MB2'
   l: ['5']
-- p: [0, 1, 2, 3]
+- p: [33, 34, 35]
   k: Gui+TAB
