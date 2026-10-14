@@ -11,8 +11,8 @@ layers:
   - I
   - O
   - P
-  - A
-  - S
+  - {t: A, h: Sft+A}
+  - {t: S, h: Sft+S}
   - D
   - F
   - G
